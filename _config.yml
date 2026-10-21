@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Andrew Krapivin"
 title_separator          : "-"
 name                     : &name "Andrew Krapivin"
-description              : &description "personal description"
+description              : &description "Andrew Krapivin is a computer science PhD student at Carnegie Mellon University working on data structures, hashing, oblivious algorithms, and SAT solving."
 url                      : "https://andrewkrapivin.net" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "andrewkrapivin/andrewkrapivin.github.io"
@@ -80,12 +80,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+  preprints:
+    title: 'Preprints'
   conferences:
     title: 'Conference Papers'
+  theses:
+    title: 'Theses'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -175,6 +175,8 @@ exclude:
   - CHANGELOG
   - Capfile
   - config
+  - CONTRIBUTING.md
+  - docker-compose.yaml
   - Dockerfile
   - Gemfile
   - Gruntfile.js
@@ -182,10 +184,13 @@ exclude:
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
   - Rakefile
   - README
+  - README.md
+  - scripts
   - tmp
   - vendor
 keep_files:

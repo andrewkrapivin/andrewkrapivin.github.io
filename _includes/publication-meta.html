@@ -1,0 +1,17 @@
+{% comment %}
+  Coauthors, venue, and links for a publication. Pass the publication as `pub` (post on list pages, page on its own page).
+  The venue should include the year (e.g. 'STOC 2026'); "In" is prepended for conference papers.
+{% endcomment %}
+{% assign pub = include.pub %}
+
+{% if pub.authors %}
+  <p style="margin-top: 0.5em; margin-bottom: 0;">with {{ pub.authors }}</p>
+{% endif %}
+{% if pub.venue %}
+  <p style="margin: 0;">{% if pub.category == 'conferences' %}In {% endif %}{{ pub.venue }}</p>
+{% endif %}
+
+{% capture links %}{% if pub.quantaurl %} | <a href="{{ pub.quantaurl }}">Quanta Coverage!</a>{% endif %}{% if pub.arxivurl %} | <a href="{{ pub.arxivurl }}">arXiv Version</a>{% endif %}{% if pub.eprinturl %} | <a href="{{ pub.eprinturl }}">ePrint Version</a>{% endif %}{% if pub.conferenceurl %} | <a href="{{ pub.conferenceurl }}">Conference Version</a>{% endif %}{% endcapture %}
+{% if links != "" %}
+  <p style="margin-top: 0.25em; margin-bottom: 0;">{{ links | remove_first: " | " }}</p>
+{% endif %}
