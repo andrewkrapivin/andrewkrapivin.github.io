@@ -5,6 +5,7 @@ category: preprints
 permalink: /publication/contention-resolution-against-an-adversarial-scheduler
 excerpt: ''
 date: November 2026
+venue: 'SPAA 2027 (under review)'
 authors: 'Michael A. Bender, Martín Farach-Colton, Pritom Kundu, John Kuszmaul, Margaret Kuszmaul, William Kuszmaul, and Jingxun Liang'
 arxivurl: 'https://arxiv.org/abs/2611.09747'
 ---

@@ -6,7 +6,7 @@ permalink: /publication/breadcrumb-filters
 excerpt: ''
 date: April 2026
 venue: 'SIGMOD 2026'
-authors: 'Aaditya Rangarajan, Alex Conway, Martín Farach-Colton, Rob Johnson, and Prashant Pandey'
+authors: 'Aaditya Ranga Rajan, Alex Conway, Martín Farach-Colton, Rob Johnson, and Prashant Pandey'
 conferenceurl: 'https://doi.org/10.1145/3786629'
 ---
 Enumerable filters are the gold-standard for full-featured filters: they support insertions, deletions, merging; they can support associated values, such as counts; and like traditional filters they support queries with a small probability of false positives. When designing a system that uses filters, high-performance enumerable filters are required to simplify system design and improve overall performance, compared to systems that must work around the limitations of traditional filters that are not full featured. The vector quotient filter (VQF) is the state of the art enumerable filter.

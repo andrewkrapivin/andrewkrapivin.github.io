@@ -1,5 +1,5 @@
 ---
-title: "Greedy Open Addressing Revisited: Beyond Yao's Lower Bound"
+title: "Greedy Open Addressing Revisited: How to Bypass Yao's Lower Bound"
 collection: publications
 category: conferences
 permalink: /publication/greedy-open-addressing-revisited

@@ -5,6 +5,7 @@ category: preprints
 permalink: /publication/optimal-statistical-oblivious-ram
 excerpt: ''
 date: October 2026
+venue: 'EUROCRYPT 2027 (under review)'
 authors: 'Elaine Shi'
 eprinturl: 'https://eprint.iacr.org/2026/2419'
 ---

@@ -17,7 +17,7 @@ Recent news
 ======
 * [Optimal Worst-Case Open Addressing: Braided Cuckoo Hashing](/publication/braided-cuckoo-hashing), with William Kuszmaul, will appear at SODA 2027.
 * New preprint with Elaine Shi: [Optimal Statistical Oblivious RAM and Search Tree in the External-Memory Model](/publication/optimal-statistical-oblivious-ram).
-* New preprint with William Kuszmaul and Yixuan Wang: [Linear Probing with Non-Greedy Insertions](/publication/interlinear-probing).
+* [Interlinear Probing: Linear Probing with Non-Greedy Insertions](/publication/interlinear-probing), with William Kuszmaul and Yixuan Wang, will appear at ITCS 2027.
 * Papers this year at STOC (two), SIGMOD, SAT, and CICM; see my [publications](/publications/).
 * Named a Hertz Fellowship finalist (2026).
 * Our hash table work was featured in Quanta's [2025's Biggest Breakthroughs in Computer Science](https://www.quantamagazine.org/videos/2025s-biggest-breakthroughs-in-computer-science/).

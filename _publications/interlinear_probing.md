@@ -1,10 +1,11 @@
 ---
-title: "Linear Probing with Non-Greedy Insertions"
+title: "Interlinear Probing: Linear Probing with Non-Greedy Insertions"
 collection: publications
-category: preprints
+category: conferences
 permalink: /publication/interlinear-probing
 excerpt: ''
 date: July 2026
+venue: 'ITCS 2027 (to appear)'
 authors: 'William Kuszmaul and Yixuan Wang'
 arxivurl: 'https://arxiv.org/abs/2607.17494'
 ---

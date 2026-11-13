@@ -5,6 +5,7 @@ category: preprints
 permalink: /publication/cnf-encoding-complexity-of-boolean-functions
 excerpt: ''
 date: November 2026
+venue: 'STOC 2027 (under review)'
 authors: 'Benjamin Przybocki and Bernardo Subercaseaux'
 arxivurl: 'https://arxiv.org/abs/2611.05614'
 ---

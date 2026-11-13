@@ -5,6 +5,7 @@ category: preprints
 permalink: /publication/incremental-open-addressing-has-no-time-space-tradeoff
 excerpt: ''
 date: November 2026
+venue: 'STOC 2027 (under review)'
 authors: 'Martín Farach-Colton and William Kuszmaul'
 arxivurl: 'https://arxiv.org/abs/2611.04186'
 ---
