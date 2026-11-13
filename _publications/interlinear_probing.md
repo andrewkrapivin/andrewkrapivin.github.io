@@ -1,5 +1,5 @@
 ---
-title: "Interlinear Probing: Linear Probing with Non-Greedy Insertions"
+title: "Linear Probing with Non-Greedy Insertions"
 collection: publications
 category: preprints
 permalink: /publication/interlinear-probing
